@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box !important;
+}
+
+.widgets {
+  box-shadow: unset !important;
+}
+
+.no-padding {
+  padding: unset !important;
+}
+
+.no-border {
+  border: unset !important;
+}
+
+.banner-wrapper {
+  height: 320px;
+}
+
+.serps {
+  border: 1px solid rgb(90, 90, 240);
+  border-radius: 3px;
+}
+
+#blogserp-widget, #poll-widget, #events-widget {
+  margin-top: 1.9rem !important;
+  margin-bottom: 1.9rem !important;
+}
+
+#poll-widget img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+}
+
+#poll-widget {
+  /* padding: 0 !important; */
+  position: relative;
+  /* overflow: hidden; */
+}
+
+#poll-img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.25;
+}
+
+
+#poll-segment-bg, #poll-form label {
+  background: unset !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+#header-wrapper {
+  margin-bottom: 1rem;
+}
+
+#header {
+  height: 60px;
+  background-color: rgb(27, 27, 145);
+  color: #fff;
+  text-align: center;
+}
+
+#sub-header-bar {
+  height: 40px;
+  background-color: rgb(199, 199, 199);
+}
+
+#footer {
+  height: 120px;
+  background-color: rgb(77, 77, 255);
+  color: #fff;
+  text-align: center;
+}
+
+#alert-segment-bg span {
+  color: rgb(218, 21, 21) !important;
+  font-size: 1.5vh !important;
+}
+
+#alert-segment-bg:after {
+  content: ' ' !important;
+  height: 20px !important;
+}
+
+#alert-segment-bg {
+  background: none !important;
+}
+
+#alert-widget {
+  background-color: rgb(228, 228, 228);
+}
+
+#events-widget {
+  background-color:  rgba(245, 245, 245, 0.781);
+  overflow-y: auto !important;
+  height: 468px !important;
+}
+
+.events-list {
+  background: none !important;
+}
+
+.event-title {
+  color: rgb(71, 71, 199);
+}
