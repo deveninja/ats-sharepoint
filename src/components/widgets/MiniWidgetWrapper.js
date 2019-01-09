@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MiniWidget from './MiniWidget';
+import MiniWidget from './MiniWidget'
 
 class MiniWidgetWrapper extends Component {
   render() {

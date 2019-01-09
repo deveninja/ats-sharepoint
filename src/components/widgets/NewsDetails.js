@@ -8,7 +8,7 @@ class NewsDetails extends Component {
           <div className="">
             <div className="content">
               <div className="header">
-                <h3>News Title</h3>
+                <h4>News Title</h4>
               </div>
               <div className="meta">
                 <div className="description">

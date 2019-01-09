@@ -6,23 +6,23 @@ class BlogSerp extends Component {
     return (
       <div id="blogserp-widget" className="ui segment widgets no-padding no-border">
         <div className="ui two column doubling stackable grid">
-          <div className="eight wide column">
-            <div className="ui segment widgets">
+          <div className="column">
+            <div className="ui segment widgets no-border">
               <BlogSerpDetails />
             </div>
           </div>
-          <div className="eight wide column">
-            <div className="ui segment widgets">
+          <div className="column">
+            <div className="ui segment widgets no-border">
               <BlogSerpDetails />
             </div>
           </div>
-          <div className="eight wide column">
-            <div className="ui segment widgets">
+          <div className="column">
+            <div className="ui segment widgets no-border">
               <BlogSerpDetails />
             </div>
           </div>
-          <div className="eight wide column">
-            <div className="ui segment widgets">
+          <div className="column">
+            <div className="ui segment widgets no-border">
               <BlogSerpDetails />
             </div>
           </div>

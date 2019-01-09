@@ -6,6 +6,7 @@ import MiniWidgetWrapper from './widgets/MiniWidgetWrapper';
 import Poll from './widgets/Poll';
 import Alerts from './widgets/Alerts';
 import EventsCalendar from './widgets/EventsCalendar';
+import Loader from './widgets/Loader';
 
 class Main extends Component {
   render() {
@@ -22,6 +23,10 @@ class Main extends Component {
               <Poll />
               <Alerts />
               <EventsCalendar />
+              <Loader bgColor={'red'}/>
+              <Loader bgColor={'blue'}/>
+              <Loader bgColor={'yellow'}/>
+              <Loader bgColor={'pink'}/>
            </div>
       </div>
     )
